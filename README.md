@@ -88,17 +88,17 @@ GTA V/
 ## 🚀 How to Use
 
 ### 🔧 Setup
-1. Move your:
+1. Run CripCore as **Administrator**
+2. The tool create's `CripCore_Profiles`
+3. Move your:
    - `mods`
    - `plugins`
    - `scripts`
    - `ELS`
    - `lspdfr`  
-   into a profile folder (**BRITISH** or **AMERICAN**)  
+   into a profile folder (**BRITISH** or **AMERICAN**) located in `CripCore_Profiles`  
 
-2. Remove them from the main GTA directory  
-
-3. Run CripCore as **Administrator**
+4. Remove them from the main GTA directory  
 
 ---
 
