@@ -8,8 +8,9 @@ A modern manager for **Grand Theft Auto V + LSPDFR** to safely manage mods, plug
 
 ### 🔁 Profile Switching
 - Instantly switch between:
-  - 🇬🇧 BRITISH setup  
-  - 🇺🇸 AMERICAN setup  
+  - Game Build 1 setup  
+  - Game Build 2 setup  
+  - Game Build Dev setup  
 - Keeps all mod setups completely separate  
 - Uses fast folder linking (no manual copying)
 
@@ -17,7 +18,7 @@ A modern manager for **Grand Theft Auto V + LSPDFR** to safely manage mods, plug
 
 ### 🧩 Plugin & Script Management
 - Enable / Disable plugins and scripts with one click  
-- No need to manually rename `.dll` files  
+- No need to manually rename `.dll` or `.asi` files  
 - Visual status:
   - 🟢 Enabled  
   - 🔴 Disabled  
@@ -28,6 +29,7 @@ A modern manager for **Grand Theft Auto V + LSPDFR** to safely manage mods, plug
 - Backup critical game files:
   - `GTA5.exe`
   - `GTAVLauncher.exe`
+  - `GTAVLanguageSelect.exe`
   - `PlayGTAV.exe`
 - Restore instantly if a GTA update breaks your mods  
 
@@ -66,13 +68,19 @@ Launcher: x.x.x.x
 
 GTA V/
 ├── CripCore_Profiles/
-│   ├── BRITISH/
+│   ├── Game Build 1/
 │   │   ├── mods/
 │   │   ├── plugins/
 │   │   ├── scripts/
 │   │   ├── ELS/
 │   │   └── lspdfr/
-│   ├── AMERICAN/
+│   ├── Game Build 2/
+│   │   ├── mods/
+│   │   ├── plugins/
+│   │   ├── scripts/
+│   │   ├── ELS/
+│   │   └── lspdfr/
+│   ├── Game Build Dev/
 │   │   ├── mods/
 │   │   ├── plugins/
 │   │   ├── scripts/
@@ -96,16 +104,17 @@ GTA V/
    - `scripts`
    - `ELS`
    - `lspdfr`  
-   into a profile folder (**BRITISH** or **AMERICAN**) located in `CripCore_Profiles`  
+   into a profile folder (**Game Build 1** / **Game Build 2** **Game Build Dev**) located in `CripCore_Profiles`  
 
-4. Remove them from the main GTA directory  
+4. Remove them from the main GTA directory 
+Do not change profile's unless you have done all the above... If you failed to do so. Don't come at me.. Your fault you lost your files. No going back now. Start again. 
 
 ---
 
 ### 🔁 Switching Profiles
 1. Open CripCore  
-2. Click **BRITISH** or **AMERICAN**  
-3. Mods are swapped instantly  
+2. Click **Game Build 1** or **Game Build 2** or **Game Build Dev** 
+3. Mods and other files are swapped instantly  
 
 ---
 
@@ -118,7 +127,7 @@ GTA V/
 ---
 
 ### 💾 Creating a Backup
-1. Enter a backup name  
+1. Enter a backup name or choose one 
 2. Click **Create Backup**  
 
 ---
@@ -141,9 +150,9 @@ GTA V/
 
 ## 💡 Future Features
 
-- Plugin conflict detection  
 - Full mod manager UI  
-- Profile import/export improvements  
+- Update enhancements
+- Much more, but feel free to suggest 
 
 ---
 
